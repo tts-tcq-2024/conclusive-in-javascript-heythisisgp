@@ -1,5 +1,6 @@
 const alerts = require('../src/typewisealert');
 const { expect } = require('chai');
+const sinon = require('sinon');
 
 describe('Typewise Alert Tests', () => {
   it('infers a value lower than the minimum as TOO_LOW', () => {
